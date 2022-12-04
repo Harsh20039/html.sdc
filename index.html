@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT INFORMATION</title>
+</head>
+<body>
+    <header><b><u>REGISTRATION FORM </u></b></header>
+    <main>
+        <form action="action.php">
+            <hr>
+            <p>ENTER YOUR NAME : </p>
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+            <label for="pas">ENTER YOUR PASSWORD :<br></label>
+            <input type="password" placeholder="passcode" id="pas">
+            <br><br>
+            <p>Select your class</p>
+            <input type="radio" value="CLASS XI" name ="class" id="101">
+            <label for="101">CLASS XI</label><!--//it is used so that we can click on text also to select option-->
+            <input type="radio" value="class XII" name="class" id="102">
+            <label for="102">CLASS XII</label>
+            <br><br>
+            <p>Select fav subject</p>
+            <input type="radio" value="ENGLISH" name="subject" id="201">
+            <label for="201">ENGLISH</label>
+            <input type="radio" value="CHEMISTRY" name="subject" id="202">
+            <label for="202">CHEMISTRY</label>
+            <br><br>
+            <P>Choose your hobbies</P>
+            <input type="checkbox" value="SINGING" name="hobbies" id="301">
+            <label for="301">SINGING</label>
+            <input type="checkbox" value="READING BOOKS" name="hobbies" id="302">
+            <label for="302">READING BOOKS</label>
+            <input type="checkbox" value="PLAYING" name="hobbies" id="303">
+            <label for="303">PLAYING</label>
+            <br><br>
+            <P>Select your city</P>
+            <select name="city">
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Delhi">Delhi</option>
+            </select> 
+            <br><br>
+            <label for="401">Enter your feedback</label><br><br>
+            <textarea name="feedback" id="401" >Please enter your valuable feedback</textarea>
+            <footer><hr>
+            <input type="submit" value="submit">
+        </footer>
+        </form>
+    </main>
+</body>
+</html>
